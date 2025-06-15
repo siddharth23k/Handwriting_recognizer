@@ -1,1 +1,43 @@
-# Handwriting_predictor
+# Handwritten Digit Recognizer
+
+An interactive web app that predicts handwritten digits (0–9) using a trained neural network on the MNIST dataset. Users can draw digits on a canvas or upload digit images, and the model will recognize the number in real time.
+
+
+## Preview
+![Screenshot](image.png)
+
+
+## Features:
+
+- Draw digits using mouse or touchscreen  
+- Upload handwritten digit images  
+- Real-time digit prediction with confidence scores  
+- Uses a trained neural network (Keras + MNIST)  
+
+
+## Model Details:
+
+- **Framework:** TensorFlow + Keras  
+- **Architecture:**
+  - Dense(100, activation='relu')
+  - Dense(100, activation='relu')
+  - Dense(10, activation='softmax')  
+- **Trained on:** MNIST Dataset  
+- **Input shape:** 784 (28×28 grayscale images flattened)  
+- **Accuracy:** -99.5% on validation set and ~97.4% on test set
+
+
+## Run Locally:
+
+1. Clone the repository
+
+git clone https://github.com/your-username/Handwriting_Predictor.git
+cd Handwriting_Predictor
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3.Run the app
+
+streamlit run app.py
