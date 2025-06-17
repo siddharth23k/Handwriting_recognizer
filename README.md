@@ -31,7 +31,7 @@ An interactive web app that predicts handwritten digits (0–9) using a trained 
 
 1. Clone the repository
 
-git clone https://github.com/your-username/Handwriting_Predictor.git
+git clone https://github.com/siddharth23k/Handwriting_Predictor.git
 cd Handwriting_Predictor
 
 2. Install dependencies
