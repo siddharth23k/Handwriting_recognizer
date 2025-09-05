@@ -1,6 +1,6 @@
 # Handwritten Digit Recognizer
 
-An interactive web app that predicts handwritten digits (0–9) using a trained neural network on the MNIST dataset. Users can draw digits on a canvas or upload digit images, and the model will recognize the number in real time.
+An interactive web app that predicts handwritten digits (0–9) using a trained neural network. Users can draw digits on a canvas or upload digit images, and the model will recognize the number in real time.
 
 
 ## Preview
