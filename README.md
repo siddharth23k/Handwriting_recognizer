@@ -12,7 +12,7 @@ An interactive web app that predicts handwritten digits (0–9) using a trained 
 - Draw digits using mouse or touchscreen  
 - Upload handwritten digit images  
 - Real-time digit prediction with confidence scores  
-- Uses a trained neural network (Keras + MNIST)  
+- Uses a trained neural network (Keras)  
 
 
 ## Model Details:
